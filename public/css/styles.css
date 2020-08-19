@@ -46,9 +46,15 @@ input[type="checkbox"] {
 p {
   margin: 0;
   padding: 20px;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 200;
+  transition-duration: 0.4s;
   color: #222831;
+}
+
+p:hover {
+  font-size: 20px;
+  color: #078b92;
 }
 
 form.item {
@@ -66,6 +72,16 @@ button {
   font-size: 30px;
   padding-bottom: 0;
   border-width: 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #078b92;
+  color: #393e46;
+  height: 3.2rem;
+  width: 3.2rem;
+  font-size: 35px;
 }
 
 input[type="text"] {
