@@ -57,14 +57,14 @@ form.item {
 }
 
 button {
-  min-height: 50px;
-  width: 50px;
+  height: 3rem;
+  width: 3rem;
   border-radius: 50%;
   border-color: transparent;
   background-color: #00adb5;
   color: #eeeeee;
   font-size: 30px;
-  padding-bottom: 6px;
+  padding-bottom: 0;
   border-width: 0;
 }
 
